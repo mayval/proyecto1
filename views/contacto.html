@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contáctanos</h1>
+        <h2>Llena el siguiente formulario de contacto y pronto nos comunicaremos contigo</h2>
+        <form action="" method="" id="formulario">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br>
+            <label for="edad">edad</label>
+            <input type="number" name="edad" id="edad">
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="number" name="Telefono" id="Telefono">
+            <br>
+            <label for="Fecha_nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="Fecha_nacimiento" id="Fecha_nacimiento">
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="correo@ejemplo.com">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Danos tu opinion</legend>
+            <label for="articulos_electronicos">Auriculares a cable</label>
+            <input type="radio" name="articulos_electronicos" id="articulos_electronicos" value="Auriculares a cable">
+            <label for="articulos_electronicos">Auriculares inalambricos</label>
+            <input type="radio" name="articulos_electronicos" id="articulos_electronicos" value="Auriculares inalambricos">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Colores favoritos</legend>
+            <label for="colores">azul</label>
+            <input type="checkbox" name="colores" id="colores" value="azul">
+            <label for="colores">rojo</label>
+            <input type="checkbox" name="colores" id="colores" value="rojo">
+            <label for="colores">amarillo</label>
+            <input type="checkbox" name="colores" id="colores" value="amarillo">
+            <label for="colores">verde</label>
+            <input type="checkbox" name="colores" id="colores" value="verde">
+            <label for="colores">negro</label>
+            <input type="checkbox" name="colores" id="colores" value="negro">
+            <label for="colores">blanco</label>
+            <input type="checkbox" name="colores" id="colores" value="blanco">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>formas de auriculares</legend>
+            <select name="formas_de_auriculares" id="formas_de_auriculares">
+                <option value="con_vincha">Con vincha</option>
+                <option value="sin_vincha">Sin vincha</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comentanos que te gustaria que agreguemos al catalogo</legend>
+            <input type="file" name="imagen_articulos_electronicos" id="imagen_articulos_electronicos">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="asunto">asunto</label>
+            <input type="text" name="asunto" id="asunto">
+            <br>
+            <label for="contenido">contenido</label>
+            <textarea name="contenido" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="borrar campos">
+    </form>
+    </main>
+    <footer>
+        <br>
+        <a href="mailto:gamesportpkgejemplo@gmail.com">Email de contacto</a>
+        <a href="https://es-la.facebook.com/" target="_blank">Link de nuestras redes sociales</a>
+    </footer>
+    
+</body>
+</html>
